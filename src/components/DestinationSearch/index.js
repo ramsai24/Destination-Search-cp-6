@@ -36,14 +36,14 @@ class DestinationSearch extends Component {
           <div className="search-container">
             <input
               className="inputEl"
-              type="text"
+              type="search"
               placeholder="search"
               onChange={this.onSearch}
             />
             {searchInput === '' ? null : buttondisplay}
             <img
               src="https://assets.ccbp.in/frontend/react-js/destinations-search-icon-img.png"
-              alt="search"
+              alt="search icon"
               className="search-logo"
             />
           </div>
