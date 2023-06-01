@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.img {
+  height: 250px;
+  width: 350px;
+}
+
+@media (max-width: 576px) {
+  .img {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+.card-container {
+  margin: 18px;
+}
+
+.name {
+  font-weight: 500;
+}
